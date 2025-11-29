@@ -1,0 +1,6 @@
+br\unibh\sdm\ecommerce\persistance\StoreRepository.class
+br\unibh\sdm\ecommerce\service\StoreService.class
+br\unibh\sdm\ecommerce\entity\Store.class
+br\unibh\sdm\ecommerce\Application.class
+br\unibh\sdm\ecommerce\rest\StoreController.class
+br\unibh\sdm\ecommerce\persistance\DynamoDBConfig.class
