@@ -20,28 +20,6 @@ import br.unibh.sdm.ecommercestaff.Application;
 import br.unibh.sdm.ecommercestaff.entity.Staff;
 import br.unibh.sdm.ecommercestaff.persistance.StaffRepository;
 
-/**
- * Classe de testes para a entidade Staff.
- * <br>
- * Para rodar, antes defina a seguinte variável de ambiente:
- * -Dspring.config.location=C:/Users/seu-usuario/ecommerce-staff/
- * <br>
- * Neste diretório, criar um arquivo application.properties contendo as seguintes variáveis:
- * <br>
- * # Connection parameters<br>
- * spring.datasource.url=jdbc:postgresql://HOST:5432/DBNAME<br>
- * spring.datasource.username=USER<br>
- * spring.datasource.password=PASSWORD<br>
- * <br>
- * spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true<br>
- * spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect<br>
- * <br>
- * # Hibernate ddl auto (create, create-drop, validate, update)<br>
- * spring.jpa.hibernate.ddl-auto=create<br>
- * 
- * @author ecommerce-staff
- *
- */
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = Application.class)
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)

@@ -230,10 +230,7 @@ public class Staff {
                 return false;
         } else if (!phone.equals(other.phone))
             return false;
-        if (hireDate == null) {
-            if (other.hireDate != null)
-                return false;
-        } else if (!hireDate.equals(other.hireDate))
+        if (!hireDate.equals(other.hireDate))
             return false;
         if (login == null) {
             if (other.login != null)
