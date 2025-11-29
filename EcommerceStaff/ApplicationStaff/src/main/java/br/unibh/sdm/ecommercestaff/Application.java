@@ -25,7 +25,7 @@ public class Application {
 	// metodo main
 	public static void main(String[] args) {
 		log.info("Inicializando...");
-	    System.setProperty("server.servlet.context-path", "/cliente-api");
+	    System.setProperty("server.servlet.context-path", "/staff-api");
 	    System.setProperty("server.port", "8080");
 		new SpringApplicationBuilder(Application.class).web(WebApplicationType.SERVLET).run(args);
 	}

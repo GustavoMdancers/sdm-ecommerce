@@ -47,6 +47,28 @@ public class StaffController {
         }
     }
 
+    @GetMapping(value = "name/{name}")
+    public Object getStaffByName(@PathVariable @NotNull String name) throws Exception {
+        List<Staff> staffList = staffRepository.findByName(name);
+        if (!staffList.isEmpty()) {
+            return staffList;
+        } else {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(
+                Collections.singletonMap("errorMessage", "Nenhum Staff encontrado com o nome: " + name));
+        }
+    }
+
+    @GetMapping(value = "cpf/{cpf}")
+    public Object getStaffByCpf(@PathVariable @NotNull String cpf) throws Exception {
+        List<Staff> staffList = staffRepository.findByCpfStaff(cpf);
+        if (!staffList.isEmpty()) {
+            return staffList;
+        } else {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(
+                Collections.singletonMap("errorMessage", "Nenhum Staff encontrado com o CPF: " + cpf));
+        }
+    }
+
     @ResponseStatus(HttpStatus.CREATED)
     @PostMapping(value = "", consumes = MediaType.APPLICATION_JSON_VALUE)
     public Object createStaff(@RequestBody @NotNull Staff staff) throws Exception {
