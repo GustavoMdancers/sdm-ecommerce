@@ -25,7 +25,9 @@ import br.unibh.sdm.ecommercestaff.persistance.StaffRepository;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class StaffTest {
 
+    @SuppressWarnings("FieldMayBeFinal")
     private static Logger LOGGER = LoggerFactory.getLogger(StaffTest.class);
+    @SuppressWarnings("FieldMayBeFinal")
     private SimpleDateFormat df = new SimpleDateFormat("dd/MM/yyyy");
 
     @Autowired
