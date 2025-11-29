@@ -22,11 +22,6 @@ import br.unibh.sdm.ecommercestaff.persistance.StaffRepository;
 import jakarta.validation.ConstraintViolationException;
 import jakarta.validation.constraints.NotNull;
 
-/**
- * Classe contendo as definições de serviços REST/JSON para Staff
- * @author ecommerce-staff
- *
- */
 @RestController
 @RequestMapping(produces = MediaType.APPLICATION_JSON_VALUE, path = "staff")
 public class StaffController {

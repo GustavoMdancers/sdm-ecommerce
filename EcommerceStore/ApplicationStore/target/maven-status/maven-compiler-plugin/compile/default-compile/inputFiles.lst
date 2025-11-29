@@ -1,6 +1,6 @@
-c:\Ecommerce\Ecommerce\Application-Ecommerce\src\main\java\br\unibh\sdm\ecommerce\Application.java
-c:\Ecommerce\Ecommerce\Application-Ecommerce\src\main\java\br\unibh\sdm\ecommerce\entity\Store.java
-c:\Ecommerce\Ecommerce\Application-Ecommerce\src\main\java\br\unibh\sdm\ecommerce\persistance\DynamoDBConfig.java
-c:\Ecommerce\Ecommerce\Application-Ecommerce\src\main\java\br\unibh\sdm\ecommerce\persistance\StoreRepository.java
-c:\Ecommerce\Ecommerce\Application-Ecommerce\src\main\java\br\unibh\sdm\ecommerce\rest\StoreController.java
-c:\Ecommerce\Ecommerce\Application-Ecommerce\src\main\java\br\unibh\sdm\ecommerce\service\StoreService.java
+C:\Ecommerce\sdm-ecommerce\EcommerceStore\ApplicationStore\src\main\java\br\unibh\sdm\ecommerce\Application.java
+C:\Ecommerce\sdm-ecommerce\EcommerceStore\ApplicationStore\src\main\java\br\unibh\sdm\ecommerce\entity\Store.java
+C:\Ecommerce\sdm-ecommerce\EcommerceStore\ApplicationStore\src\main\java\br\unibh\sdm\ecommerce\persistance\DynamoDBConfig.java
+C:\Ecommerce\sdm-ecommerce\EcommerceStore\ApplicationStore\src\main\java\br\unibh\sdm\ecommerce\persistance\StoreRepository.java
+C:\Ecommerce\sdm-ecommerce\EcommerceStore\ApplicationStore\src\main\java\br\unibh\sdm\ecommerce\rest\StoreController.java
+C:\Ecommerce\sdm-ecommerce\EcommerceStore\ApplicationStore\src\main\java\br\unibh\sdm\ecommerce\service\StoreService.java
