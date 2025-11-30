@@ -116,4 +116,16 @@ public class StaffController {
         }
     }
 
+    @DeleteMapping(value = "")
+    public Object deleteAllStaff() throws Exception {
+        long count = staffRepository.count();
+        if (count == 0) {
+            return ResponseEntity.status(HttpStatus.NO_CONTENT).body(
+                Collections.singletonMap("message", "Nenhum Staff para deletar"));
+        }
+        staffRepository.deleteAll();
+        return ResponseEntity.status(HttpStatus.OK).body(
+            Collections.singletonMap("message", count + " Staff(s) deletado(s) com sucesso"));
+    }
+
 }
