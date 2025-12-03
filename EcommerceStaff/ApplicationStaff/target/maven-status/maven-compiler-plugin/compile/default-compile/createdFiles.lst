@@ -1,0 +1,5 @@
+br\unibh\sdm\ecommercestaff\entity\Staff.class
+br\unibh\sdm\ecommercestaff\rest\StaffController.class
+br\unibh\sdm\ecommercestaff\service\StaffService.class
+br\unibh\sdm\ecommercestaff\persistance\StaffRepository.class
+br\unibh\sdm\ecommercestaff\Application.class
